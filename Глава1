@@ -1,0 +1,33 @@
+Глава 1 Вариант B задание 1
+Выполнил: Торяшиев Жаргал
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите количество чисел: ");
+
+        int a = in.nextInt();
+        int[] numbers = new int[a];
+
+        System.out.print("Введите " + a + " чисел: ");
+        for (int i = 0; i < a; i++) {
+            numbers[i] = in.nextInt();
+        }
+
+        System.out.print("Четные числа: ");
+        for (int number : numbers) {
+            if (number % 2 == 0) {
+                System.out.print(number + " ");
+            }
+        }
+
+        System.out.print("\nНечетные числа: ");
+        for (int number : numbers) {
+            if (number % 2 != 0) {
+                System.out.print(number + " ");
+            }
+        }
+    }
+}

@@ -1,10 +1,12 @@
 Глава 9 Вариант A 
 Выполнил: Торяшиев Жаргал
 
-
-import java.io.*;
-import java.text.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.text.NumberFormat;
+import java.text.ParseException;
+import java.util.Locale;
 
 class InvalidNumberException extends Exception {
     public InvalidNumberException(String message) {

@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Objects;
 
 class Animal {
     protected String name;

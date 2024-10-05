@@ -1,7 +1,7 @@
 Глава 3 Вариант A задание Book
 Выполнил: Торяшиев Жаргал
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

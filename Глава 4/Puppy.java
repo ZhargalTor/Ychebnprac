@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 class Puppy extends Dog {
     public Puppy(String name) {
         super(name);

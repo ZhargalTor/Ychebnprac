@@ -4,7 +4,8 @@
 
 
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Objects;
 
 class Film {
     private String title;
@@ -80,3 +81,5 @@ public class Main {
         Film film = new Film("Список Шиндлера", 195, "Биография", directors);
 
         System.out.println(film);
+    }
+}

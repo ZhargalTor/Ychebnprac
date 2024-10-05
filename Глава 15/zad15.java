@@ -4,7 +4,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
-public class zad5 {
+public class zad15 {
     public zad15() {
     }
 

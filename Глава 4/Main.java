@@ -1,7 +1,7 @@
 Глава 4 Вариант A задание 10
 Выполнил: Торяшиев Жаргал
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

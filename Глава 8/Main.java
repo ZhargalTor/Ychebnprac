@@ -1,8 +1,12 @@
 Глава 8 Вариант A задание 10
 Выполнил: Торяшиев Жаргал
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-Глава 2 Вариант B задание 1
+Глава 2 Вариант B задание 2
 Выполнил: Торяшиев Жаргал
 
 
-import java.util.*;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
